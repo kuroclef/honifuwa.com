@@ -27,7 +27,7 @@ a:hover {
 
 dl > dt {
   float : left;
-  width : 9rem;
+  width : 13rem;
 }
 
 dl > dd::before {
