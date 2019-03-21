@@ -17,7 +17,7 @@ body {
 }
 
 h1, h2, h3, dl, ul, p {
-  font-family : "Open Sans", sans-serif;
+  font-family : sans-serif;
   font-weight : 300;
 }
 
@@ -46,11 +46,49 @@ main {
   margin-right  : 5vw;
 }
 
-main > dl > dt {
+main dl > dt {
   float : left;
-  width : 13rem;
+  width : 15rem;
 }
 
-main > dl > dd::before {
+main dl > dd::before {
   content : "— ";
 }
+
+.im {
+  display       : inline-block;
+  font-family   : "icomoon";
+  text-align    : center;
+  width         : 1.3rem;
+}
+
+.im > span {
+  display : none;
+}
+
+.im-archlinux { color: #1793d1; }
+.im-archlinux:before { content: "\e900"; }
+
+.im-discord { color: #7289da; }
+.im-discord:before { content: "\e901"; }
+
+.im-facebook { color: #3b5998; }
+.im-facebook:before { content: "\e902"; }
+
+.im-github { color : #24292e; }
+.im-github:before { content: "\e903"; }
+
+.im-gmail { color: #d14836; }
+.im-gmail:before { content: "\e904"; }
+
+.im-instagram { color: #e4405f; }
+.im-instagram:before { content: "\e905"; }
+
+.im-line { color: #00c300; }
+.im-line:before { content: "\e906"; }
+
+.im-mobile { color : #24292e; }
+.im-mobile:before { content: "\e907"; }
+
+.im-twitter { color: #1da1f2; }
+.im-twitter:before { content: "\e908"; }
