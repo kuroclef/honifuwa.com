@@ -48,7 +48,7 @@ main {
 
 main dl > dt {
   float : left;
-  width : 15rem;
+  width : 17rem;
 }
 
 main dl > dd::before {
