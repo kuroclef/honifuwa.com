@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url("//fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=M+PLUS+1p:wght@300&display=swap");
 
 @font-face {
-  font-family : icomoon;
+  font-family : "icomoon";
   font-style  : italic;
-  src         : url(icomoon.woff);
+  src         : url("fonts/icomoon.woff") format("woff");
 }
 
 html {
@@ -16,8 +16,13 @@ body {
   margin : 0;
 }
 
-h1, h2, h3, dl, ul, p {
-  font-family : sans-serif;
+h1, h2, h3 {
+  font-family : "Open Sans", "M PLUS 1p", sans-serif;
+  font-weight : 300;
+}
+
+a, dl, ol, p, ul {
+  font-family : "Open Sans", "M PLUS 1p", sans-serif;
   font-weight : 300;
 }
 
@@ -30,7 +35,7 @@ a:hover { text-decoration : underline; }
 
 body > header {
   background-color    : crimson;
-  background-image    : url(logo.png);
+  background-image    : url("assets/logo.png");
   background-position : center;
   background-repeat   : no-repeat;
   background-size     : contain;
@@ -42,13 +47,13 @@ body > header > h1 {
 }
 
 main {
-  margin-left   : 5vw;
-  margin-right  : 5vw;
+  margin-left  : 5vw;
+  margin-right : 5vw;
 }
 
 main dl > dt {
   float : left;
-  width : 17rem;
+  width : 16rem;
 }
 
 main dl > dd::before {
@@ -56,10 +61,10 @@ main dl > dd::before {
 }
 
 .im {
-  display       : inline-block;
-  font-family   : "icomoon";
-  text-align    : center;
-  width         : 1.3rem;
+  display     : inline-block;
+  font-family : "icomoon";
+  text-align  : center;
+  width       : 1.3rem;
 }
 
 .im > span {
